@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html onclick="Playaudio()">
+    <head>
+        <link rel="stylesheet" href="stylesmihoyo.css">
+        <h1 class="titulo">Hoyoverse</h1>
+        <link rel="icon" href="https://static.wikia.nocookie.net/gensin-impact/images/8/80/Genshin_Impact.png/revision/latest?cb=20240331104358">
+    </head>
+    <body>
+        <div>
+            <button class="boton">Home</button>
+            <button class="boton">Producter</button>
+            <button class="boton">About</button>
+            <button class="boton">Contact</button>
+        </div>
+        <div></div>
+        <div>
+            <audio id="musicafondo" autoplay loop="infinite">
+                <source src="Anthem of the savannah.mp3" type="audio/mp3">
+                tu navegador no es compatible
+            </audio>
+            <script>
+            function Playaudio(){
+                document.getElementById("musicafondo").play();
+            }
+        </script>
+        </div>
+    </body>
+</html>
 
