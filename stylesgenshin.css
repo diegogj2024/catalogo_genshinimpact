@@ -27,3 +27,24 @@ body{
 .boton{
     background-color: aqua;
 }
+
+.botoncont{
+    margin: 4%;
+}
+
+.imagen{
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+#imagenempresa{
+    width: 25%;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.tabla{
+    animation: mezcla 5s linear infinite;
+}
