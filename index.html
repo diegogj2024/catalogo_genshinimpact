@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html onclick="Playaudio()">
-    <head>
-        <link rel="stylesheet" href="stylesgenshin.css">
-        <h1 class="titulo">Hoyoverse</h1>
-        <link rel="icon" href="https://static.wikia.nocookie.net/gensin-impact/images/8/80/Genshin_Impact.png/revision/latest?cb=20240331104358">
-    </head>
-    <body>
-        <div>
-            <button class="boton">Home</button>
-            <button class="boton">Producter</button>
-            <button class="boton">About</button>
-            <button class="boton">Contact</button>
-        </div>
-        <div class="imagen">
-            <img id="imagenempresa" src="viajeros.jpg">
-        </div>
-        <table class="tabla">
-            <tr>
-                <td>cosa1</td>
-            </tr>
-            <tr>
-                <td>cosa2</td>
-            </tr>
-            <tr>
-                <td>cosa3</td>
-            </tr>
-            <tr>
-                <td>cosa4</td>
-            </tr>
-            <tr>
-                <td>cosa5</td>
-            </tr>
-            </td>
-            </tr>
-        </table>
-        <div>
-            <audio id="musicafondo" autoplay loop="infinite">
-                <source src="Anthem of the savannah.mp3" type="audio/mp3">
-                tu navegador no es compatible
-            </audio>
-            <script>
-            function Playaudio(){
+
+<head>
+    <link rel="stylesheet" href="stylesgenshin.css">
+    <h1 class="titulo">Hoyoverse</h1>
+    <link rel="icon"
+        href="https://static.wikia.nocookie.net/gensin-impact/images/8/80/Genshin_Impact.png/revision/latest?cb=20240331104358">
+</head>
+
+<body>
+    <div class="contenedorboton">
+        <button class="boton">Home</button>
+        <button class="boton">Producter</button>
+        <button class="boton">About</button>
+        <button class="boton">Contact</button>
+    </div>
+    <div class="imagen">
+        <img id="imagenempresa" src="viajeros.jpg">
+    </div>
+    <table class="tabla">
+        <tr>
+            <td>Audio1</td>
+        </tr>
+        <tr>
+            <td>Audio2</td>
+        </tr>
+        <tr>
+            <td id="borde">cosa1</td>
+        </tr>
+        <tr>
+            <td id="borde">cosa2</td>
+        </tr>
+        <tr>
+            <td id="borde">cosa3</td>
+        </tr>
+        <tr>
+            <td id="borde">cosa4</td>
+        </tr>
+        <tr>
+            <td id="borde">cosa5</td>
+        </tr>
+    </table>
+    <div>
+        <audio id="musicafondo" autoplay loop="infinite">
+            <source src="Anthem of the savannah.mp3" type="audio/mp3">
+            tu navegador no es compatible
+        </audio>
+        <script>
+            function Playaudio() {
                 document.getElementById("musicafondo").play();
             }
         </script>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
