@@ -1,50 +1,86 @@
-body{
+body {
     background-color: aquamarine;
     background-image: url(natlan.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.titulo{
+.titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     animation: mezcla 2s linear infinite;
 }
-@keyframes mezcla{
-    0%{
+
+@keyframes mezcla {
+    0% {
         color: red;
     }
-    50%{
+
+    50% {
         color: yellow;
     }
-    100%{
+
+    100% {
         color: lightblue;
     }
 }
 
-.boton{
-    background-color: aqua;
+.boton {
+    background-color: transparent;
+    border: 3px solid blue;
+    animation: colorboton 2s linear infinite;
+    padding: 1% 2%;
 }
 
-.botoncont{
+.contenedorboton {
+    display: flex;
+    align-items: flex-end;
+}
+
+@keyframes colorboton {
+    0% {
+        color: red;
+        border: 3px solid blue;
+    }
+
+    50% {
+        color: yellow;
+        border: 3px solid purple;
+    }
+
+    100% {
+        color: lightblue;
+        border: 3px solid green;
+    }
+}
+
+.botoncont {
     margin: 4%;
 }
 
-.imagen{
+.imagen {
     position: relative;
     display: flex;
     justify-content: right;
 }
 
-#imagenempresa{
+#imagenempresa {
     width: 25%;
     position: absolute;
     top: -50px;
     right: 0;
 }
 
-.tabla{
+.tabla {
     animation: mezcla 5s linear infinite;
+    border: 2px solid aqua;
+    padding: 2%;
+    margin: 2%;
+}
+
+#borde {
+    border: 3px solid;
+    animation: contenedorboton;
 }
