@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <link rel="stylesheet" href="stilos.css">
         <link rel="stylesheet" href="media.css">
     </head>
-    <body>
+    <body onclick="Playaudio()">
+        <audio id="musica" loop="infinite">
+            <source src="musica/musciafondo.mp3" type="audio/mp3">
+        </audio>
+        <div class="video-normal-container">
+            <video class="video" src="photos/video.mp4" id="video" loop="infinite" autoplay muted></video> 
+        </div>
         <div id="principal">
             <div class="encabezado">
                 <div class="botones">
@@ -22,6 +28,26 @@
                     </a>
                 </div>
             </div>
+            <div class="cuerpo">
+                <div class="tabla-izquierda">
+                    <table class="tabla">
+                        <tr>
+                            <td><iframe width=100% height=50% src="https://www.youtube.com/embed/5KxK37KN7Hk" title="Presentación de personaje de Genshin Impact - Xilonen: Canciones candentes #Xilonen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                        </tr>
+                        <tr>
+                            <td><iframe width=100% height=50% src="https://www.youtube.com/embed/KJXHU6QGrBM" title="Miscelánea de Genshin Impact - Xilonen: Nombres materializados #GenshinImpact #Character #Xilonen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                        </tr>
+                        <tr>
+                            <td>holaaaaa</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
+    <script>
+        function Playaudio(){
+            document.getElementById("musica").play();
+        }
+    </script>
 </html>
