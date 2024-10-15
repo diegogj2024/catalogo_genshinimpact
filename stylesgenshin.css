@@ -5,6 +5,33 @@ body {
     background-size: 100%;
 }
 
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+  
+
 .titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
@@ -28,8 +55,6 @@ body {
 }
 
 .boton {
-    background-color: transparent;
-    border: 3px solid blue;
     animation: colorboton 2s linear infinite;
     padding: 1% 2%;
 }
@@ -83,4 +108,19 @@ body {
 #borde {
     border: 3px solid;
     animation: contenedorboton;
+}
+
+.centroimg{
+    display: flex;
+    color: aqua;
+    border: 2px solid;
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+    gap: 10px;
+    margin: 2%;
+    border: 2px solid;
 }
