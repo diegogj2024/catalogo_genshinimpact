@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     background-color: black;
     overflow-x: hidden;
@@ -193,6 +194,7 @@ td {
   
   .button_text {
     position: relative;
+    animation: animation 5s linear infinite;
   }
   
   .button:hover {
@@ -336,6 +338,7 @@ td {
     text-transform: uppercase;
     background-color: rgb(14, 14, 26);
     color: rgb(234, 234, 234);
+    animation: animation 5s linear infinite;
     font-weight: 700;
     transition: 0.6s;
     box-shadow: 0px 0px 60px #1f4c65;
@@ -371,13 +374,39 @@ td {
 }
 
 .title {
+  font-family: 'Bebas Neue', cursive;
+  color: #333;
   display: flex;
   flex-direction: column;
     font-size: 2rem;
-    color: white;
     margin: 20px 0; 
     text-align: center; 
+    animation: animation 5s linear infinite;
 }
+
+@keyframes animation {
+  0%{
+    color: rgb(14, 240, 14);
+  }
+
+  25%{
+    color: rgb(0, 0, 221);
+  }
+
+  50%{
+    color: red;
+  }
+
+  75%{
+    color: rgb(129, 1, 129);
+  }
+
+  100%{
+    color: rgb(206, 38, 108);
+  }
+  
+}
+
 .acomodar{
     display:inline-flex;
     justify-content: space-around;
@@ -576,4 +605,12 @@ strong {
 .botoncito{
   position: relative;
   left: 80%;
+}
+.tamaño{
+  width: 10%;
+  padding-left: 2%;
+}
+.ubicacion{
+  display: flex;
+  align-content: space-around;
 }
