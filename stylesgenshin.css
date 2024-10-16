@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: black;
     background-image: url(natlan.webp);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -92,17 +92,17 @@ button {
 }
 
 #imagenempresa {
-    width: 25%;
+    width: 15%;
     position: absolute;
-    top: -50px;
+    top: -120px;
     right: 0;
+    border-radius: 60%;
 }
 
 .tabla {
     animation: mezcla 5s linear infinite;
     border: 2px solid aqua;
     padding: 2%;
-    margin: 2%;
 }
 
 #borde {
@@ -130,9 +130,35 @@ button {
     gap: 20px;
     margin: 2%;
     border: 2px solid;
+    animation: coloresimpact 10s linear infinite;
 }
 
 #imagenes_impact{
-    margin: 2%;
     width: 100%;
+}
+
+.botones_hoyo{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border: 2px solid;
+    animation: coloresimpact 5s linear infinite;
+}
+
+@keyframes coloresimpact{
+    0%{
+        color: purple;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: orange;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: green;
+    }
 }
