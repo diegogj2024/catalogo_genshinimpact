@@ -65,13 +65,13 @@ button {
 
 .contenedorboton {
     position: relative;
-    right: -55%;
+    right: -50%;
 }
 
 .textofoot{
     position: relative;
     border: 2px solid;
-    width: 30%;
+    width: 40%;
     bottom: 5%;
     left: 5%;
 }
@@ -126,7 +126,8 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     position: relative;
-    left: 50%;
+    left: 35%;
+    animation: coloresimpact 5s linear infinite;
 }
 
 .centroimg{
