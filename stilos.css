@@ -73,7 +73,6 @@ body{
     padding: 1%;
 }
 .tabla-izquierda{
-  background-color:red ;
     width: 20%;
     height: 77vh;
 }
@@ -650,7 +649,7 @@ strong {
   .botones{
       width: 40%;
       height:30vh;
-      align-content: flex-end;
+      position: relative;right: 40%;
   }
   
   .botones2{
@@ -701,8 +700,8 @@ strong {
       background-color: #0fdd0f;
       display: flex;
       flex-direction: column;
-      justify-content: center ;
-      width: 100%;
+      position: relative;right: 10%;
+      width: 120vw;
       height: 77vh;
   }
   .tabla {
@@ -841,6 +840,7 @@ strong {
   /*otro*/
   .button2 {
     -moz-appearance: none;
+    width: 120vw;
     -webkit-appearance: none;
     appearance: none;
     border: none;
