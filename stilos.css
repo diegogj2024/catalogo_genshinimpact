@@ -701,7 +701,7 @@ strong {
       display: flex;
       flex-direction: column;
       position: relative;right: 10%;
-      width: 120vw;
+      width: 140vw;
       height: 77vh;
   }
   .tabla {
@@ -840,7 +840,7 @@ strong {
   /*otro*/
   .button2 {
     -moz-appearance: none;
-    width: 120vw;
+    width: 140vw;
     -webkit-appearance: none;
     appearance: none;
     border: none;
