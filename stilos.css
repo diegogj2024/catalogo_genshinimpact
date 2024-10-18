@@ -958,7 +958,8 @@ strong {
   }
   /*otros botones*/
   .btn {
-      width: 120vw;
+      width: 140vw;
+      position: relative;left: 10%;
       height: 10vh;
       font-size: 1.2rem;
       padding: 0.5rem 2rem;
