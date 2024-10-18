@@ -657,11 +657,11 @@ strong {
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      gap: 20px;
       width: 100%;
-      height: 10vh;
-      margin-bottom: 0.40%;
-      background-color: red;
+      height: 100vh;
+      margin-bottom: 10%;
+      margin-top: 10%;
+      background-color: rgb(15, 10, 10);
   }
   
   #img{
@@ -836,7 +836,7 @@ strong {
     .button:hover .button_lg::after {
       background-color: #fff;
     }
-  
+
   /*otro*/
   .button2 {
     -moz-appearance: none;
@@ -958,6 +958,8 @@ strong {
   }
   /*otros botones*/
   .btn {
+      width: 120vw;
+      height: 10vh;
       font-size: 1.2rem;
       padding: 0.5rem 2rem;
       border: none;
@@ -985,9 +987,10 @@ strong {
     }
   
     .color {
+      background-color: #fe53bb;
       display: flex;
       flex-direction: column;
-      width: 80%;
+      width: 100%;
       height: 82vh;
       justify-content: flex-start;
       align-items: center;
@@ -997,7 +1000,7 @@ strong {
       height: 65vh;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      position: relative;top: 30%;
       align-items: center;
       width: 100%;
   }
@@ -1039,6 +1042,7 @@ strong {
   .acomodar{
       display:inline-flex;
       justify-content: space-around;
+      flex-direction: column;
       width: 60vw;
       height: 46vh;
   }
