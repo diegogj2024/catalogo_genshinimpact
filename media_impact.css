@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+body{
+    background-color: purple;
+}
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .fotos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #imagenempresa {
+        width: 30%;
+        top: -80px;
+    }
+
+    .textofoot {
+        width: 90%;
+        left: 5%;
+    }
+}

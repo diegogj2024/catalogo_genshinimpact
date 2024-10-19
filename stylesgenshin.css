@@ -49,6 +49,10 @@ button {
         color: yellow;
     }
 
+    75%{
+        color: green;
+    }
+
     100% {
         color: lightblue;
     }
@@ -60,8 +64,16 @@ button {
 }
 
 .contenedorboton {
-    display: flex;
-    align-items: flex-end;
+    position: relative;
+    right: -50%;
+}
+
+.textofoot{
+    position: relative;
+    border: 2px solid;
+    width: 40%;
+    bottom: 5%;
+    left: 5%;
 }
 
 @keyframes colorboton {
@@ -102,7 +114,7 @@ button {
 .tabla {
     animation: mezcla 5s linear infinite;
     border: 2px solid aqua;
-    padding: 2%;
+    padding: 6%;
 }
 
 #borde {
@@ -114,7 +126,8 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     position: relative;
-    left: 50%;
+    left: 35%;
+    animation: coloresimpact 5s linear infinite;
 }
 
 .centroimg{
@@ -134,13 +147,13 @@ button {
 }
 
 #imagenes_impact{
-    width: 100%;
+    width: 70%;
 }
 
 .botones_hoyo{
     display: flex;
     position: relative;
-    justify-content: space-between;
+    left: 50%;
     border: 2px solid;
     animation: coloresimpact 5s linear infinite;
 }
@@ -161,4 +174,16 @@ button {
     100%{
         color: green;
     }
+
+}
+.fotos .Texto{
+    overflow: scroll;
+    height: 10%;
+    overflow-x: hidden;
+
+}
+
+.contenedorvideo{
+    width: 50%;
+    height: 10%;
 }
