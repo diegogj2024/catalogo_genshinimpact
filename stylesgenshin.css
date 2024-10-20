@@ -63,6 +63,11 @@ button {
     padding: 1% 2%;
 }
 
+.boton2 {
+    animation: colorboton 2s linear infinite;
+    padding: 1% 2%;
+}
+
 .contenedorboton {
     position: relative;
     right: -45%;
@@ -194,7 +199,6 @@ button {
     height: 10%;
 }
 
-/* Media queries para pantallas entre 300px y 700px */
 @media (min-width: 300px) and (max-width: 700px) {
 
     body {
@@ -203,7 +207,7 @@ button {
     }
 
     .titulo {
-        font-size: 28px; /* Reduce el tamaño del título para pantallas pequeñas */
+        font-size: 28px; 
     }
 
     .boton {
@@ -212,18 +216,24 @@ button {
         margin: 5px;
     }
 
+    .boton2 {
+        animation: colorboton 2s linear infinite;
+        padding: 1% 2%;
+        width: 60vw;
+    }
+
     #imagenempresa {
         width: 40%;
         top: -60px;
-        right: 10px; /* Ajusta la imagen de la empresa */
+        right: 10px;
     }
 
     .contenedorboton {
-        right: -10%; /* Ajusta la posición de los botones */
+        right: -10%; 
     }
 
     .textofoot {
-        width: 90%; /* Expande el texto para aprovechar más el ancho de la pantalla */
+        width: 90%;
         left: 5%;
         font-size: 14px;
         position: relative;
@@ -231,27 +241,27 @@ button {
     }
 
     .tabla {
-        width: 100%; /* Ajusta la tabla para que ocupe el ancho completo */
+        width: 100%;
     }
 
     .fotos {
-        grid-template-columns: repeat(2, 1fr); /* Ajusta el grid a dos columnas para móviles */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 10px;
     }
 
     #imagenes_impact {
-        width: 90%; /* Haz las imágenes más grandes */
+        width: 90%;
         margin-left: 5%;
     }
 
     .botones_hoyo {
-        flex-direction: column; /* Coloca los botones uno debajo del otro */
+        flex-direction: column;
         padding: 10px 0;
     }
 
     #titulo_viaje {
         font-size: 20px;
-        left: 0; /* Centra el título */
+        left: 0;
         text-align: center;
     }
 }
