@@ -226,6 +226,8 @@ button {
         width: 90%; /* Expande el texto para aprovechar más el ancho de la pantalla */
         left: 5%;
         font-size: 14px;
+        position: relative;
+        top: 2%;
     }
 
     .tabla {
