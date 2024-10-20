@@ -70,7 +70,7 @@ button {
 
 .textofoot{
     position: relative;
-    border: 2px solid;
+    border: 2px solid transparent;
     width: 40%;
     bottom: 7%;
     left: 3%;
@@ -113,7 +113,7 @@ button {
 
 .tabla {
     animation: mezcla 5s linear infinite;
-    border: 2px solid aqua;
+    border: 2px solid transparent;
     padding: -1%;
     width: 200%;
 }
@@ -136,7 +136,7 @@ button {
 .centroimg{
     display: flex;
     color: aqua;
-    border: 2px solid;
+    border: 2px solid transparent;
 }
 
 .fotos{
@@ -145,7 +145,7 @@ button {
     grid-template-rows: repeat(3);
     gap: 20px;
     margin: 2%;
-    border: 2px solid;
+    border: 2px solid transparent;
     animation: coloresimpact 10s linear infinite;
 }
 
@@ -160,7 +160,7 @@ button {
     position: relative;
     left: 0%;
     padding: 2%;
-    border: 2px solid;
+    border: 2px solid transparent;
     animation: coloresimpact 5s linear infinite;
 }
 
