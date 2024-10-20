@@ -16,7 +16,7 @@ button {
     background: transparent;
     cursor: pointer;
     box-shadow: transparent;
-    border: 1px solid #ffffff80;
+    border: 1px solid;
     transition: 0.5s ease;
     user-select: none;
   }
@@ -65,15 +65,15 @@ button {
 
 .contenedorboton {
     position: relative;
-    right: -50%;
+    right: -45%;
 }
 
 .textofoot{
     position: relative;
     border: 2px solid;
     width: 40%;
-    bottom: 5%;
-    left: 5%;
+    bottom: 7%;
+    left: 3%;
 }
 
 @keyframes colorboton {
@@ -114,11 +114,15 @@ button {
 .tabla {
     animation: mezcla 5s linear infinite;
     border: 2px solid aqua;
-    padding: 6%;
+    padding: -1%;
+    width: 200%;
 }
 
 #borde {
     border: 3px solid;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
     animation: contenedorboton;
 }
 
@@ -127,7 +131,6 @@ button {
     display: flex;
     position: relative;
     left: 35%;
-    animation: coloresimpact 5s linear infinite;
 }
 
 .centroimg{
@@ -148,12 +151,15 @@ button {
 
 #imagenes_impact{
     width: 70%;
+    margin-left: 10%;
 }
 
 .botones_hoyo{
     display: flex;
+    justify-content: space-between;
     position: relative;
-    left: 50%;
+    left: 0%;
+    padding: 2%;
     border: 2px solid;
     animation: coloresimpact 5s linear infinite;
 }
